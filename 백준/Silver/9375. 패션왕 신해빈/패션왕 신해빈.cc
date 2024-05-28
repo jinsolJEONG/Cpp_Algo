@@ -19,9 +19,9 @@ int main(){
             cin >> a >> b;
             mp[b]++;
         }
-        int rst = 1;
+        long long rst = 1;
         for(auto i : mp){
-            rst *= (i.second +1);
+            rst *= ((long long)i.second +1);
         }
         rst--;
 

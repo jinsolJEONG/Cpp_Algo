@@ -1,7 +1,8 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-int n, k;
+int n;
+int k;
 string s;
 map<string, int> mpS;
 map<int, string> mpI;

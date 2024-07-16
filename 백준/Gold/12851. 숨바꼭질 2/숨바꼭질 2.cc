@@ -34,6 +34,11 @@ int main(){
     //i
     cin >> n >> k;
     //s
+    //반례:처음부터 같은 위치라면?
+    if(n==k){
+        cout << "0" << '\n' << "1" << '\n';
+        return 0;
+    }
     bfs();
     //o
     cout << times[k]-1 << '\n' << ways[k];
